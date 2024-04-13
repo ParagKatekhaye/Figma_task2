@@ -8,7 +8,7 @@ const Navbar = () => {
       <Container>
         <Row className="py-2 justify-content-center">
           <Col xs={12} md={6} className="text-center">
-            <p className="p-2">
+            <p className="p-2" style={{color:'gray'}}>
               Version 2.0 is here
               <Image className="m-2 img-fluid " src="./Readmore.png" />
               <Image src="./Icons.png" className="img-fluid" />
