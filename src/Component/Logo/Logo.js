@@ -6,7 +6,7 @@ import Row from "react-bootstrap/Row";
 function Logo() {
   return (
     <Container className="container p-4" style={{ backgroundColor: "black" }}>
-      <h6 style={{ textAlign: "center" }}>
+      <h6 style={{ textAlign: "center",color:'gray' }}>
         Trusted by the world’s most innovative teams
       </h6>
       <Row>

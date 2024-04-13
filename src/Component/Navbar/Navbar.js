@@ -8,7 +8,7 @@ const Navbar = () => {
       <Container>
         <Row className="py-2 justify-content-center">
           <Col xs={12} md={6} className="text-center">
-            <p className="p-2" style={{color:'gray'}}>
+            <p className="p-2">
               Version 2.0 is here
               <Image className="m-2 img-fluid " src="./Readmore.png" />
               <Image src="./Icons.png" className="img-fluid" />
@@ -51,7 +51,7 @@ const Navbar = () => {
         </Row>
 
         <Row className="justify-content-center">
-          <Col xs={12} md={6} className="text-center">
+          <Col xs={12} md={6} className="text-center mb-4">
             <Button
               style={{ backgroundColor: "white", color: "black" }}
               rounded
