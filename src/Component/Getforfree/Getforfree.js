@@ -6,9 +6,9 @@ const Getforfree = () => {
 
 
     <div className="container " style={{ backgroundColor: "black",height:100 }}>
-
+    <div>
   
-      <div style={{ position: 'relative' }}>
+      <div  style={{ position: 'relative' }}>
       <Button
         
         style={{
@@ -25,13 +25,13 @@ const Getforfree = () => {
 
 
        <div className="img-fluid" >
-      <Image className="img-fluid" src="./Default.png"   style={{position:'relative',left:1,top:15}}/>
-      <span style={{position:'relative',left:1,top:15,color:'white'}}>made by</span>
+      <Image className="img-fluid " src="./Default.png"   style={{position:'relative',left:1,top:15}}/>
+      <span className="d-none d-md-inline" style={{position:'relative',left:1,top:15,color:'white'}}>made by</span>
 
 
       
-      <Image className="img-fluid" src="./Bux.png"   style={{position:'relative',left:10,top:15}}/>
-      <span style={{position:'relative',left:20,top:15,color:'white'}}>Framer</span>
+      <Image className="img-fluid d-none d-md-inline" src="./Bux.png"   style={{position:'relative',left:10,top:15}}/>
+      <span className="d-none d-md-inline" style={{position:'relative',left:20,top:15,color:'white'}}>Framer</span>
       
       </div>
    
@@ -40,7 +40,7 @@ const Getforfree = () => {
    
    
    
-   
+   </div>
     </div>
   );
 };
