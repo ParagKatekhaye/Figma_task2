@@ -8,7 +8,7 @@ const Top = () => {
     <Container fluid>
       <Row>
         <Col>
-          <div
+          {/* <div
             className="container pop"
             style={{
              
@@ -16,7 +16,7 @@ const Top = () => {
               textAlign: "center",
             }}
           >
-            <span style={{ fontSize: 13 }}>
+            <span className="d-none d-md-inline" style={{ fontSize: 13 }}>
               This page is included in a free SaaS Website Kit.
               <span>
                 {" "}
@@ -26,7 +26,14 @@ const Top = () => {
                 </span>
               </span>
             </span>
-          </div>
+          </div> */}
+
+        <div className="container pop" style={{ height: 50,textAlign: "center"}}>
+         <p>
+         <span className="d-none d-md-inline">This page is included in a free SaaS Website Kit.</span>
+         <span>View the complete Kit <Image src="./Arrow.png" className="img-fluid" /> </span> 
+        </p>
+        </div>
         </Col>
       </Row>
     </Container>
